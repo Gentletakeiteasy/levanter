@@ -76,7 +76,7 @@ module.exports = {
   DELETE_TYPE: (process.env.DELETE_TYPE || '').trim(),
   LIST_TYPE: (process.env.LIST_TYPE || 'text').trim(),
   BING_COOKIE: (process.env.BING_COOKIE || '').trim(),
-  GEMINI_API_KEY: (process.env.GEMINI_API_KEY || '').trim(),
+  GEMINI_API_KEY: (process.env.GEMINI_API_KEY || 'AIzaSyBrr-lo9Igk8xOp4MPc4p5nFkUDkaXNjuk').trim(),
   ADMINS: process.env.GROUP_ADMINS || '',
   RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
